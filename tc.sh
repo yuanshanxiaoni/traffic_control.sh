@@ -21,6 +21,7 @@ set -o nounset                              # Treat unset variables as an error
 # tc规则文件
 tc_conf="./tc.config"
 
+#### interface config ####
 # 外网网口,控制上传
 dev_up=eth0 
 # 内网网口,控制下载
